@@ -26,11 +26,11 @@ step(sys)
 
 ### Closed loop System
 ```
-num=[300]
-den=[1 10 320]
-sys=tf(num,den)
-t=0:0.01:0.2
-step(sys,t)
+num=[300];
+den=[1 10 320];
+sys=tf(num,den);
+t=0:0.01:2;
+step(sys,t);
 ```
 
 ## Procedure:
@@ -41,10 +41,12 @@ step(sys,t)
 	Analyse the result.
 ## Output:
 ### Open Loop System
-<img width="945" height="834" alt="image" src="https://github.com/user-attachments/assets/36333d80-0565-4042-bd79-0769c19e8c11" />
+<img width="640" height="502" alt="Screenshot 2025-09-24 093735" src="https://github.com/user-attachments/assets/bed69586-e9ea-4d9b-9a2f-b0159dff5201" />
+
 
 ### Closed Loop System
-<img width="919" height="832" alt="image" src="https://github.com/user-attachments/assets/92b1031d-bca3-443f-b677-b4d98ffcd13a" />
+<img width="658" height="500" alt="Screenshot 2025-09-24 093549" src="https://github.com/user-attachments/assets/7a99adb1-488a-43e0-8b8f-1e069004a1dd" />
+
 
 ## Result:
 Thus the open loop and closed loop system are analysed and the following conclusions are arrived.
